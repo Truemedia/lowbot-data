@@ -2,7 +2,7 @@
   "name": "lowbot-data",
   "version": "1.0.0",
   "description": "A data as service implementation compatible with lowbot",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/Truemedia/lowbot-data/issues"
   },
-  "homepage": "https://github.com/Truemedia/lowbot-data#readme"
+  "homepage": "https://github.com/Truemedia/lowbot-data#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "fortune": "^5.5.14",
+    "fortune-http": "^1.2.23",
+    "fortune-json-api": "^2.1.5",
+    "fortune-mongodb": "^1.3.1"
+  }
 }
