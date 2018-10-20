@@ -28,6 +28,12 @@
     "fortune": "^5.5.14",
     "fortune-http": "^1.2.23",
     "fortune-json-api": "^2.1.5",
-    "fortune-mongodb": "^1.3.1"
+    "fortune-mongodb": "^1.3.1",
+    "greeting": "^1.0.6",
+    "lemme-lex": "^0.1.1",
+    "parting": "^1.0.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }

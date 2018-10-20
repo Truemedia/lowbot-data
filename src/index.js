@@ -1,7 +1,6 @@
 const http = require('http');
 const fortune = require('fortune');
 const fortuneHTTP = require('fortune-http');
-const mongodbAdapter = require('fortune-mongodb');
 const jsonApiSerializer = require('fortune-json-api')
 const Data = require('./data');
 const entities = require('./entities'); // TODO: Abstract
