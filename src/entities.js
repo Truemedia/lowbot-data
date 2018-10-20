@@ -21,4 +21,11 @@ module.exports = {
     // One-to-many relationship of post author to user posts.
     author: [ 'user', 'posts' ]
   }
+  /**
+    * @namespace salutation
+    */
+  salutation: {
+    name: String,
+    tags: Array 
+  }
 };
