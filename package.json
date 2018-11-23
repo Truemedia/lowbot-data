@@ -30,8 +30,12 @@
     "fortune-json-api": "^2.1.5",
     "fortune-mongodb": "^1.3.1",
     "greeting": "^1.0.6",
+    "icecat": "^1.3.0",
     "lemme-lex": "^0.1.1",
-    "parting": "^1.0.6"
+    "opengtindb-client": "0.0.4",
+    "parting": "^1.0.6",
+    "read-data-file": "^1.0.0",
+    "yaml": "^1.0.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1"

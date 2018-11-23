@@ -2,8 +2,11 @@ const gulp = require('gulp');
 const Data = require('./src/data');
  // TODO: Abstract below constants
 const entities = require('./src/entities');
-const salutation = require('./data/salutation');
-const dataSources = {salutation};
+// Data sources
+const dataSources = {
+  exchange: require('./data/exchange'),
+  salutation: require('./data/salutation')
+};
 
 // Default
 gulp.task('default', ['seed']);
@@ -25,8 +28,8 @@ gulp.task('seed', function() {
             return null;
           }
         }).then( () => {
-          return store.create(name, dataSources[name].documents);
-        });
+          return dataSources[name].documents();
+        }).then(docs => store.create(name, docs));
       } else {
         return null;
       }

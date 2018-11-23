@@ -27,5 +27,15 @@ module.exports = {
   salutation: {
     name: String,
     tags: Array
+  },
+  /**
+    * @namespace exchange
+    */
+  exchange: {
+    name: String,
+    barcode: String,
+    qty: Number,
+    prices: Array,
+    tags: Array,
   }
 };
