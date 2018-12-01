@@ -20,5 +20,9 @@ module.exports = {
           });
         })
       ]).then(docGroups => [].concat.apply([], docGroups));
-    }
+    },
+    /**
+      * Relations
+      */
+    includes: []
 };

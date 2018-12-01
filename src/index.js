@@ -14,7 +14,7 @@ const listener = fortuneHTTP(store, {
 
 const server = http.createServer((request, response) =>
   listener(request, response)
-  .catch(error => {
+  .catch(err => {
     console.log(err);
   }));
 

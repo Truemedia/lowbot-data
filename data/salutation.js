@@ -17,5 +17,9 @@ module.exports = {
         .concat( parting.all.map(phrase => new Lexeme(phrase, partingTags).toRecord()) );
       resolve(docs);
     });
-  }
+  },
+  /**
+    * Relations
+    */
+  includes: []
 };
