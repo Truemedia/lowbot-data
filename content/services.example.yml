@@ -1,0 +1,6 @@
+---
+  # Services
+  - name: Library
+    prices:
+      - currency: token
+        amount: 15

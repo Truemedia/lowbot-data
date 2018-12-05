@@ -1,0 +1,6 @@
+---
+  # Products
+  - name: Book
+    prices:
+      - currency: token
+        amount: 5

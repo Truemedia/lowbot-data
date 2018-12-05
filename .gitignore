@@ -63,3 +63,4 @@ typings/
 # Library specific
 !.gitkeep
 content/*.yml
+!content/*.example.yml
